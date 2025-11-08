@@ -1,0 +1,27 @@
+.busqueda-contenedor {
+  width: 100%;
+  max-width: 600px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.busqueda-input {
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.busqueda-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+.busqueda-input::placeholder {
+  color: #999;
+  font-style: italic;
+}

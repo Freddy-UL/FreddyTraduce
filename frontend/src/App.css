@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(135deg, #121212, #1e1e1e);
+  font-family: "Inter", "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #f0f0f0;
+}
+
+
+h1 {
+  text-align: center;
+  color: #00bcd4;
+  margin-bottom: 35px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.contenedor-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: #00bcd4 1px solid;
+}
+.logo {     
+  width: 150px;            /* Tamaño más grande */
+  height: 150px;
+  object-fit: contain;
+}
+
+.contenedor-header h1 {
+  margin: 0;     
+  font-size: 32px; 
+}

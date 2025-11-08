@@ -1,0 +1,115 @@
+.tabla {
+  width: 85%;
+  margin: 40px auto;
+  text-align: center;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.tabla h2 {
+  font-size: 28px;
+  color: #0078d4;
+  margin-bottom: 25px;
+}
+
+.buscador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+  background-color: white;
+}
+
+.buscador input {
+  width: 350px;
+  padding: 10px 15px;
+  border: 2px solid #0078d4;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.buscador input:focus {
+  outline: none;
+  border-color: #005fa3;
+  box-shadow: 0 0 6px #0078d4;
+}
+
+.buscador button {
+  padding: 10px 20px;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.buscador button:hover {
+  background-color: #005fa3;
+}
+#registrados {
+  font-size: 32px;
+  color: #0078d4;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th {
+  background-color: #0078d4;
+  color: white;
+  padding: 14px;
+  font-size: 17px;
+}
+
+td {
+  padding: 12px;
+  border-bottom: black 1px solid;
+  font-size: 16px;
+  color: black;
+}
+
+tr:hover {
+  background-color: #f3f9ff;
+}
+
+.btn-editar {
+  background-color: #43a047;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  margin-right: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-editar:hover {
+  background-color: #2e7d32;
+}
+
+.btn-eliminar {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-eliminar:hover {
+  background-color: #c62828;
+}
